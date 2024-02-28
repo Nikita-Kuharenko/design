@@ -1,0 +1,246 @@
+@import 'fonts.css';
+
+
+
+a:hover{
+    text-decoration: none;
+}
+
+.header{
+    height: 100px;
+}
+
+.header__nav{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 18px;
+}
+
+.header__button{
+    text-transform: uppercase;
+    font-family: 'Montserrat Medium';
+    color: black;
+    margin-right: 33px;
+    font-size: 12px;
+    line-height: 9px;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: color 500ms;
+}
+
+.header__button:last-of-type{
+    margin-right: 0;
+}
+
+.header__button:hover{
+    color: #228e4b;
+}
+/* ********** MAIN START ***********/
+
+.main__slider{
+    background: #f6f6f6;
+    height: 685px;
+}
+
+
+
+.main__slider-left{
+    padding-top: 53px;
+    padding-bottom: 106px;
+    padding-right: 117px;
+}
+
+
+.main__slider-title{
+    font-family: 'Montserrat Medium';
+    font-size: 38px;
+    line-height: 38px;
+    color: black;
+}
+
+.main__slider-text{
+    font-family: 'NunitoSns Regular';
+    font-size: 16px;
+    line-height: 24px;
+    color: gray;
+}
+
+.main__slider-name,
+.main__slider-date,
+.main__slider-contacts{
+    font-family: 'NunitoSns Bold';
+    font-size: 16px;
+    color: black;
+}
+
+.name,
+.date,
+.contacts{
+    font-family: 'NunitoSns Regular';
+    font-size: 16px;
+    color: gray;
+    margin-left: 10px;
+}
+
+.main__slider-button{
+    background: none;
+    border: none;
+}
+
+.main__slider-buttons{
+    background: green;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    padding: auto;
+}
+
+.main__slider-button-text{
+    text-transform: uppercase;
+    color: white;
+    margin-top: 15px;
+}
+
+
+
+.main__slider-button-text:first-of-type{
+    margin-right: 20px;
+}
+
+.main__slider-button-text:last-of-type{
+    margin-left: 20px;
+}
+
+.main__slider-amount{
+    color: white;
+}
+
+.main__slider-prev{
+    border: none;
+    background: white;
+}
+
+
+/* ********** MAIN END ***********/
+.footer{
+    padding-top: 100px;
+    padding-bottom:103px;
+    background: #000;
+}
+
+.footer__text{
+    padding: auto;
+    margin-left: 167px;
+}
+.footer__text-main{
+    font-family: 'Montserrat Medium';
+    color: white;
+    font-size: 18px;
+    line-height: 17px;
+}
+.footer__text-mini{
+    color: white;
+    line-height: 14px;
+    font-size: 15px;
+}
+
+.footer__mail,
+.footer_phone{
+    color: gray;
+    font-size: 14px;
+}
+
+.footer__mail{
+    margin-bottom: 11px;
+    font-family: 'NunitoSns Regular';
+}
+.footer_phone{
+    font-family: 'WorkSans Regular';
+}
+
+.footer__link{
+    color: gray;
+    font-size: 14px;
+}
+
+.footer__links{
+    margin-right: 44px;
+}
+.footer__links:last-of-type{
+    margin-right: 0;
+}
+
+@media(max-width:1159px){
+    .header__button{
+        font-size: 20px;
+    }
+    .footer__text{
+        margin-left: 0;
+    }
+}
+
+@media(max-width:663px){
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__contact{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .footer__link{
+        font-size: 20px;
+    }
+    .footer__text-main{
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    .footer__text-mini{
+        font-size: 20px;
+    }
+    .footer__text-mini:nth-of-type(2){
+        margin-bottom: 10px;
+    }
+    .footer__mail,
+    .footer_phone{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:431px){
+    .header__button{
+        margin-right: 15px;
+    }
+    .header__button:last-of-type{
+        margin-right: 0;
+    }
+    .main-info__text{
+        line-height: 25px;
+    }
+}
+
+@media(max-width:1200px){
+    .main__slider-left{
+        padding-top: 26px;
+        padding-bottom: 53px;
+        padding-right: 67px;
+    }
+    .main__slider-text{
+        line-height: 14px;
+    }
+}
+
+@media(max-width:992px){
+    .main__slider-item{
+        flex-direction: column;
+        height: 100%;
+        overflow: auto;
+    }
+}
+
+@media(max-width:576px){
+    .main__slider-item{
+        padding-right:20px;
+        padding-left: 20px;
+    }
+}
