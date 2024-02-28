@@ -1,0 +1,621 @@
+@import 'fonts.css';
+
+
+
+a:hover{
+    text-decoration: none;
+}
+
+.header{
+    height: 100px;
+    background: url(../img/header-bg.jpg) no-repeat center /cover;
+}
+
+.header__nav{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 18px;
+}
+
+.header__button{
+    text-transform: uppercase;
+    font-family: 'Montserrat Medium';
+    color: black;
+    margin-right: 33px;
+    font-size: 12px;
+    line-height: 9px;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: color 500ms;
+}
+
+.header__button:last-of-type{
+    margin-right: 0;
+}
+
+.header__button:hover{
+    color: #228e4b;
+}
+
+.header__info{
+    margin-top: 75px;
+}
+
+.header__info-title{
+    font-family: 'Montserrat Medium';
+    font-size: 35px;
+}
+
+.header__info-text{
+    font-size: 15px;
+    font-family: 'Montserrat Thin';
+    margin-bottom: 53px;
+    margin-top: 30px;
+    padding-right: 665px;
+}
+
+.header__info-button{
+    text-transform: uppercase;
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    background: green;
+    color: white;
+    padding: 22px 58px 23px 46px;
+}
+
+/* ********** MAIN START ***********/
+
+.main__about{
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.main__about-title{
+    font-family: 'Montserrat Medium';
+    font-size: 34px;
+    margin-bottom: 45px;
+}
+
+.main__about-text{
+    font-family: 'NunitoSns Regular';
+    font-size: 14px;
+    color: gray;
+    line-height: 23px;
+    margin-bottom: 50px;
+}
+
+.main__skills{
+    background: #f8f9f9;
+}
+
+.main__skills-img{
+    width: 100%;
+    height: 100%;
+}
+
+.main__skills-left,
+.main__skills-right{
+    width: 50%;
+}
+
+.main__skills-left{
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.main__skills-title{
+    font-family: 'Montserrat Medium';
+    font-size: 30px;
+    margin-bottom: 39px;
+}
+
+.main__skills-design{
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.main__skills-percent{
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    margin-left: 18px;
+}
+
+.main__skills-progress{
+    margin-top: 40px;
+}
+
+.main__skills-progress:first-of-type{
+    margin-top: 0;
+}
+
+.main__achievments-item{
+    color: white;
+    padding-top: 77px;
+    padding-bottom: 80px;
+}
+
+.main__achievements{
+    background: green;
+}
+
+.main__achievments-item i{
+    font-size: 48px;
+}
+
+.main__achievments-count{
+    font-family: 'Montserrat Medium';
+    font-size: 18px;
+}
+
+.main__achievments-text{
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.main__images-img{
+    position: relative;
+    width: 25%; /*460*/
+    height: 25%; /*400 */
+}
+
+.main__images-img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.main__images-eye{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    font-size: 100px; 
+    background: rgba(76, 147, 105, 0.8);
+    transition: opacity 500ms;
+}
+
+.main__images-img:hover .main__images-eye{
+    opacity: 1;
+}
+
+.main__photos-btn{
+    width: 100%;
+    background: green;
+    font-family: 'Montserrat Medium';
+    font-size: 21px;
+    color: white;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    
+}
+
+.main__proccess{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.main__proccess-article{
+    font-family: 'Montserrat Medium';
+    font-size: 44px;
+}
+
+.main__proccess-text{
+    font-family: 'NunitoSns Regular';
+    font-size: 22px;
+    line-height: 33px;
+    color: gray;
+}
+
+.main__proccess-video{
+    position: relative;
+    margin-right: 128px;
+    margin-left: 128px;
+}
+
+.main__proccess-video img{
+    width: 100%;
+    height: 100%;
+}
+
+.main__video-btn{
+    position: absolute;
+    top: 1;
+    left: 1;
+    background: green;
+    border-radius: 100%;
+    padding: 34px 37px;
+    color: white;
+}
+
+.main__abilities{
+    background: #f5f5f5;
+    padding-left: 128px;
+    padding-right: 128px;
+    padding-top: 110px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+/* .main__abilities-item{
+    margin-right: 55px;
+    margin-bottom: 25px;
+    padding-right: 16px;
+    padding-left: 16px;
+} */
+
+.main__abilities-icon{
+    color: gray;
+    font-size: 47px;
+    margin-bottom: 30px;
+}
+
+.main__abilities-article{
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.main__abilities-text{
+    color: gray;
+    font-family: 'NunitoSns Regular';
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.main__abilities-item:nth-of-type(4),
+.main__abilities-item:nth-of-type(8){
+    margin-right: 0;
+}
+
+.fa-plane{
+    rotate: -45deg;
+}
+
+.main__reviews{
+    background: green;
+}
+
+.main__reviews{
+    padding-bottom: 60px;
+}
+
+.main__review-item{
+    padding-top: 200px;
+}
+
+.review{
+    font-family: 'Montserrat Medium';
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+    margin-bottom: 44px;
+}
+
+.slider__prev{
+    opacity: 0;
+}
+
+.slider__next{
+    opacity: 0;
+}
+
+.review-name{
+    color: white;
+    font-family: 'Montserrat Medium';
+    font-size: 16px;
+}
+
+.review__points{
+    margin-top: 102px;
+}
+
+/* .main__reviews-sliderLine{
+    height: 100;
+} */
+
+.circle{
+    color: #b0e8e6;
+    font-size: 10px;
+    margin-right: 9px;
+}
+
+.circle-2{
+    color: white;
+    font-size: 15px;
+    margin-right: 9px;
+}
+
+.circle-3{
+    color: #b0e8e6;
+    font-size: 10px;
+}
+
+.main__marks{
+    padding-top: 67px;
+    padding-bottom: 69px;
+}
+
+.main__contact{
+    background: #f5f5f5;
+    padding: 30px 318px 100px 318px;
+}
+
+.main__contact-title{
+    font-family: 'Montserrat Medium';
+    font-size: 30px;
+}
+
+.main__contact-text{
+    color: #787878;
+    font-family: 'NunitoSns Regular';
+}
+
+.main__contacts-nameInput{
+    border: none;
+    border-radius: 0;
+    padding: 18px 262px 19px 14px;
+    margin-right: 29px;
+}
+
+.main__contacts-emailInput{
+    border: none;
+    border-radius: 0;
+    padding: 18px 262px 19px 14px;
+}
+
+.main__contacts-titleInput{
+    border: none;
+    margin-top: 30px;
+    width: 945px;
+    border-radius: 0;
+    padding: 18px 650px 19px 18px;
+}
+
+.main__contacts-CommentInput{
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    padding-top: 19px;
+    padding-left: 16px;
+    width: 945px;
+    padding-bottom: 140px;
+}
+
+.main__contacts-send{
+    text-transform: uppercase;
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    border: none;
+    margin-top: 30px;
+    background: green;
+    padding: 23px 26px 22px 25px;
+    width: 160px;
+    color: white;
+}
+
+
+/* ********** MAIN END ***********/
+.footer{
+    padding-top: 100px;
+    padding-bottom:103px;
+    background: #000;
+}
+
+.footer__text{
+    padding: auto;
+    margin-left: 167px;
+}
+.footer__text-main{
+    font-family: 'Montserrat Medium';
+    color: white;
+    font-size: 18px;
+    line-height: 17px;
+}
+.footer__text-mini{
+    color: white;
+    line-height: 14px;
+    font-size: 15px;
+}
+
+.footer__mail,
+.footer_phone{
+    color: gray;
+    font-size: 14px;
+}
+
+.footer__mail{
+    margin-bottom: 11px;
+    font-family: 'NunitoSns Regular';
+}
+.footer_phone{
+    font-family: 'WorkSans Regular';
+}
+
+.footer__link{
+    color: gray;
+    font-size: 14px;
+}
+
+.footer__links{
+    margin-right: 44px;
+}
+.footer__links:last-of-type{
+    margin-right: 0;
+}
+
+
+
+
+
+
+@media(max-width:1159px){
+    .header__button{
+        font-size: 20px;
+    }
+    .footer__text{
+        margin-left: 0;
+    }
+}
+
+@media(max-width:663px){
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__contact{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .footer__link{
+        font-size: 20px;
+    }
+    .footer__text-main{
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    .footer__text-mini{
+        font-size: 20px;
+    }
+    .footer__text-mini:nth-of-type(2){
+        margin-bottom: 10px;
+    }
+    .footer__mail,
+    .footer_phone{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:431px){
+    .header__button{
+        margin-right: 15px;
+    }
+    .header__button:last-of-type{
+        margin-right: 0;
+    }
+    .main-info__text{
+        line-height: 25px;
+    }
+}
+
+@media(max-width:1359px){
+    .main__skills{
+        flex-direction: column;
+    }
+    .main__skills-img{
+        height: 80%;
+    }
+    .main__skills-left{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+    .main__skills-left,
+    .main__skills-right{
+        width: 100%;
+    }
+    .main__images-img{
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media(max-width:992px){
+    .header__nav{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .logo{
+        width: 10%;
+        height: 10%;
+        margin-bottom: 20px;
+    }
+    .header__info-text{
+        padding: 0;
+    }
+    .main__abilities{
+        padding: 55px 50px 50px 50px;
+    }
+    .main__abilities-item{
+        width: 10px;
+    }
+}
+
+@media(max-width:959px){
+    .main__contacts-NameAndEmail{
+        flex-direction: column;
+    }
+    .main__contacts-nameInput{
+        padding-right: 0;
+        width: 600px;
+        margin-right: 0;
+        margin-bottom: 30px;
+
+    }
+    .main__contacts-emailInput{
+        padding-right: 0;
+        width: 600px;
+    }
+    .main__contacts-titleInput{
+        padding-right: 0;
+        width: 600px;
+    }
+    .main__contacts-CommentInput{
+        padding-right: 0;
+        width: 600px;
+    }
+}
+
+@media(max-width:857px){
+    .header__buttons{
+        flex-wrap: wrap;
+    }
+    .header__button{
+        margin-right: 15px;
+        line-height: 30px;
+    }
+    .main__contact{
+        padding-right: 200px;
+        padding-left: 200px;
+    }
+}
+
+@media(max-width:601px){
+    .main__contacts-NameAndEmail{
+        flex-direction: column;
+    }
+    .main__contacts-nameInput{
+        padding-right: 0;
+        width: 300px;
+        margin-right: 0;
+        margin-bottom: 30px;
+
+    }
+    .main__contacts-emailInput{
+        padding-right: 0;
+        width: 300px;
+    }
+    .main__contacts-titleInput{
+        padding-right: 0;
+        width: 300px;
+    }
+    .main__contacts-CommentInput{
+        padding-right: 0;
+        width: 300px;
+    }
+    .main__contact{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .main__video-btn{
+        padding: 15px 16px;
+    }
+}
